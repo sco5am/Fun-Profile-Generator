@@ -1,13 +1,13 @@
 const Employee = require('../lib/Employee');
 const teamMember = new Employee('Samuel', '4201997', 'sco5am@yahoo.com');
 
-Test('test if the employee object can get the constructor values', () => {
+test('test if the employee object can get the constructor values', () => {
     expect(teamMember.name).toBe('Samuel');
     expect(teamMember.id).toBe('4201997');
     expect(teamMember.email).toBe('sco5am@yahoo.com');
 });
 
-test('will get the name from the getName()method', () => {
+test('will get the name from the getName() method', () => {
     expect(teamMember.getName()).toBe('Samuel');
 });
 
