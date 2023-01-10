@@ -249,7 +249,6 @@ const internPrompt = () => {
 const finishedTeam = () => {
   console.log(`Finished building team`);
 
-  // Create the output directory if the output path doesn't exist
   if (!fs.existsSync(output_dir)) {
     fs.mkdirSync(output_dir);
   }
