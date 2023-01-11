@@ -52,7 +52,7 @@ const managerPrompt = () => {
       },
       {
         name: "officeNumber",
-        message: "Enter your office number (Required)",
+        message: "Please enter your office number",
         type: "input",
         validate: (officeNumber) => {
           if (officeNumber) {
@@ -105,7 +105,7 @@ const menuPrompt = () => {
 };
 
 const engineerPrompt = () => {
-  console.log(`Add a New Engineer`);
+  console.log(`Add a new engineer (all fields are required)`);
 
   return inquirer
     .prompt([

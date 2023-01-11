@@ -24,6 +24,6 @@ test('will get the office number from the getOfficeNumber() method', () => {
     expect(teamMember.getOfficeNumber()).toBe('555');
 });
 
-test('will get the member from the getMember() method', () => {
-    expect(teamMember.getMember()).toBe('Manager');
+test('will get the member from the getRole() method', () => {
+    expect(teamMember.getRole()).toBe('Manager');
 });

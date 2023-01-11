@@ -24,6 +24,6 @@ test('will get the office number from the getSchool() method', () => {
     expect(teamMember.getGithubUsername()).toBe('sco5am');
 });
 
-test('will get the member from the getMember() method', () => {
-    expect(teamMember.getMember()).toBe('Engineer');
+test('will get the member from the getRole() method', () => {
+    expect(teamMember.getRole()).toBe('Engineer');
 });
