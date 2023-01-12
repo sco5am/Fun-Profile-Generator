@@ -1,5 +1,7 @@
 # Fun-Profile-Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 For this assigment i was tasked with creating a Node.js command line application that would generate a webpage containing information about employees on a software engineering team. The user (manager) is first prompted with questions about themselves, such as their name and employee ID, then are given an option to add an intern, add an engineer, or the complete the profile. When completed, an HTML file is generated in the output folder. 
