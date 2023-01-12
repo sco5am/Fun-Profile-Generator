@@ -2,7 +2,13 @@
 
 ## Description
 
+For this assigment i was tasked with creating a Node.js command line application that would generate a webpage containing information about employees on a software engineering team. The user (manager) is first prompted with questions about themselves, such as their name and employee ID, then are given an option to add an intern, add an engineer, or the complete the profile. When completed, an HTML file is generated in the output folder. 
+
+This assignment helped me to better familiarize myself with object oriented programming, as well as running tests using Jest. 
 ## Usage
+This application can be run on the command line, and initialized by typing "node .".
+
+A video walkthrough of the apps functionallity can be viewed below. This generated example HTML file can be viewed in the output folder (./output/team.html):
 
 ![alt text](./dist/profile%20generator.gif)
     
