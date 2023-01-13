@@ -20,7 +20,7 @@ test('will get the email from the getEmail() method', () => {
     expect(teamMember.getEmail()).toBe('sco5am@yahoo.com');
 });
 
-test('will get the office number from the getSchool() method', () => {
+test('will get the office number from the getGithubUsername() method', () => {
     expect(teamMember.getGithubUsername()).toBe('sco5am');
 });
 
